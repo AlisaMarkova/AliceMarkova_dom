@@ -9,22 +9,22 @@ def counter(func):
 
 @counter
 def f(x, y):
-    return x + y
+    return x * y
 
 
 @counter
 def g(x):
-    return 1 / (x ** 2 + 1)
+    return 10 * x
 
 
 @counter
 def h(y):
-    return 5 ** y
+    return y ** 2
 
 
-print(f(55, 77))
+print(f(3, 55))
 print(g(2))
-print(g(-2))
+print(g(5))
 print(h(3))
 print(h(12))
 print(h(33))
