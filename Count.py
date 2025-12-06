@@ -28,7 +28,6 @@ print(g(-2))
 print(h(3))
 print(h(12))
 print(h(33))
-print(h(100))
 
 
 def print_statistics():
@@ -65,7 +64,7 @@ if __name__ == "__main__":
         main()
     except KeyboardInterrupt:
         print("Программа завершена")
-        sys.exit(0)
+
 
 
 
