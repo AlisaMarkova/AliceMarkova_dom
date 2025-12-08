@@ -58,6 +58,8 @@ def main():
                     print(f'Результат: {result}')
             except ValueError:
                 print('Необходимо ввести число')
+            except TypeError as e:
+                print(f'Ошибка вызова функции: {e}')
         else:
             print('Ошибка ввода. Выберите функцию 1, 2, 3 или 4.')
 
